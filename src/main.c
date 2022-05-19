@@ -32,7 +32,7 @@ void main(){
 
     DISPLAY_ON;
 
-    Vector3_New_Fixed(0, 0, 0, &cameraPos);
+    Vector3_New_Fixed(512, 512, 0, &cameraPos);
     
 
     // printf("%x\n", test);
@@ -55,7 +55,7 @@ void main(){
     // gotogxy(1,3);
     // gprintf("%u %u", pc.x, pc.y);
 
-    Vector3_New_Fixed(0,0,512, &vOffset);
+    Vector3_New_Fixed(256,0,1024, &vOffset);
 
     while(TRUE) {
         set_sprite_data(76, 240, Blank_Tiles); //Clear render viewport (cpy to vram)

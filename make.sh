@@ -1,1 +1,1 @@
-make test_game.gb src/main.c res/tiles.c
+make all

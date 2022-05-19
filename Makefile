@@ -1,6 +1,6 @@
 CC	= ../../gbdk/bin/lcc -Wa-l -Wl-m -Wl-j
 
-BINS	= linux_test_build.gb
+BINS	= test_build.gb
 
 all:	$(BINS)
 
